@@ -1,6 +1,8 @@
 #include <algorithm> //find, find_if
+#include <cctype> //isalnum
 #include <string>
 
+#include "url_end.h"
 
 bool not_url_char(char c){
     // characters, in addition to alphanumerics, that can appear in a url

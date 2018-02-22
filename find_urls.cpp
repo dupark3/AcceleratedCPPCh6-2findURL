@@ -2,12 +2,15 @@
 #include <string>
 #include <vector>
 
+#include "url_beg.h"
+#include "url_end.h"
+
 typedef std::string::const_iterator iter;
 
 std::vector<std::string> find_urls(const std::string& input){
     std::vector<std::string> ret;
     iter beg = input.begin();
-    iter end = intput.end();
+    iter end = input.end();
 
     // Look through entier input
     while (beg != end){
